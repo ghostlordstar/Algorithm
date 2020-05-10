@@ -10,6 +10,7 @@
 		1891E9AC2465C5BB00C771BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9AB2465C5BB00C771BA /* main.c */; };
 		1891E9B62465C5E900C771BA /* Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9B22465C5E900C771BA /* Sum.c */; };
 		1891E9B72465C5E900C771BA /* LargestNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9B52465C5E900C771BA /* LargestNumber.c */; };
+		18AF41A8246856AF0025CED1 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41A7246856AF0025CED1 /* bubbleSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		1891E9B32465C5E900C771BA /* Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
 		1891E9B42465C5E900C771BA /* LargestNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestNumber.h; sourceTree = "<group>"; };
 		1891E9B52465C5E900C771BA /* LargestNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LargestNumber.c; sourceTree = "<group>"; };
+		18AF41A6246856AF0025CED1 /* bubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
+		18AF41A7246856AF0025CED1 /* bubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				1891E9B22465C5E900C771BA /* Sum.c */,
 				1891E9B32465C5E900C771BA /* Sum.h */,
 				1891E9AB2465C5BB00C771BA /* main.c */,
+				18AF41A6246856AF0025CED1 /* bubbleSort.h */,
+				18AF41A7246856AF0025CED1 /* bubbleSort.c */,
 			);
 			path = AIgorithm;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1891E9B72465C5E900C771BA /* LargestNumber.c in Sources */,
+				18AF41A8246856AF0025CED1 /* bubbleSort.c in Sources */,
 				1891E9AC2465C5BB00C771BA /* main.c in Sources */,
 				1891E9B62465C5E900C771BA /* Sum.c in Sources */,
 			);
