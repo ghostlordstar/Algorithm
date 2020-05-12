@@ -10,7 +10,7 @@
 
 |文件名称|算法|
 |--|--|
-|Sum.c|[计算1-100的整数的和](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/Sum.c)|
-|LargestNumber.c|[将给定int数组排序，组成最大数](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/LargestNumber.c)|
-|bubbleSort.c|[冒泡排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/bubbleSort.c)|
-
+|Sum.c|[计算1-100的整数的和](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sum/Sum.c)|
+|LargestNumber.c|[将给定int数组排序，组成最大数](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/LargestNumber.c)|
+|bubbleSort.c|[冒泡排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/bubbleSort.c)|
+|SelectionSort.c|[选择排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/Selection.c)
