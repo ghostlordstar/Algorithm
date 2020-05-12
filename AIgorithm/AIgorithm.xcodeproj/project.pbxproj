@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1891E9AC2465C5BB00C771BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9AB2465C5BB00C771BA /* main.c */; };
-		1891E9B62465C5E900C771BA /* Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9B22465C5E900C771BA /* Sum.c */; };
-		1891E9B72465C5E900C771BA /* LargestNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9B52465C5E900C771BA /* LargestNumber.c */; };
-		18AF41A8246856AF0025CED1 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41A7246856AF0025CED1 /* bubbleSort.c */; };
+		18AF41B62469A9DA0025CED1 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41AD2469A9DA0025CED1 /* bubbleSort.c */; };
+		18AF41B72469A9DA0025CED1 /* LargestNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41AE2469A9DA0025CED1 /* LargestNumber.c */; };
+		18AF41B82469A9DA0025CED1 /* SelectionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41B22469A9DA0025CED1 /* SelectionSort.c */; };
+		18AF41B92469A9DA0025CED1 /* Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41B42469A9DA0025CED1 /* Sum.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +29,14 @@
 /* Begin PBXFileReference section */
 		1891E9A82465C5BB00C771BA /* AIgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AIgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1891E9AB2465C5BB00C771BA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		1891E9B22465C5E900C771BA /* Sum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sum.c; sourceTree = "<group>"; };
-		1891E9B32465C5E900C771BA /* Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
-		1891E9B42465C5E900C771BA /* LargestNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestNumber.h; sourceTree = "<group>"; };
-		1891E9B52465C5E900C771BA /* LargestNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LargestNumber.c; sourceTree = "<group>"; };
-		18AF41A6246856AF0025CED1 /* bubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
-		18AF41A7246856AF0025CED1 /* bubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
+		18AF41AD2469A9DA0025CED1 /* bubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
+		18AF41AE2469A9DA0025CED1 /* LargestNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LargestNumber.c; sourceTree = "<group>"; };
+		18AF41AF2469A9DA0025CED1 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		18AF41B02469A9DA0025CED1 /* LargestNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestNumber.h; sourceTree = "<group>"; };
+		18AF41B12469A9DA0025CED1 /* bubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
+		18AF41B22469A9DA0025CED1 /* SelectionSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SelectionSort.c; sourceTree = "<group>"; };
+		18AF41B42469A9DA0025CED1 /* Sum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sum.c; sourceTree = "<group>"; };
+		18AF41B52469A9DA0025CED1 /* Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +69,33 @@
 		1891E9AA2465C5BB00C771BA /* AIgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				1891E9B52465C5E900C771BA /* LargestNumber.c */,
-				1891E9B42465C5E900C771BA /* LargestNumber.h */,
-				1891E9B22465C5E900C771BA /* Sum.c */,
-				1891E9B32465C5E900C771BA /* Sum.h */,
+				18AF41AC2469A9DA0025CED1 /* sort */,
+				18AF41B32469A9DA0025CED1 /* sum */,
 				1891E9AB2465C5BB00C771BA /* main.c */,
-				18AF41A6246856AF0025CED1 /* bubbleSort.h */,
-				18AF41A7246856AF0025CED1 /* bubbleSort.c */,
 			);
 			path = AIgorithm;
+			sourceTree = "<group>";
+		};
+		18AF41AC2469A9DA0025CED1 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				18AF41AD2469A9DA0025CED1 /* bubbleSort.c */,
+				18AF41B12469A9DA0025CED1 /* bubbleSort.h */,
+				18AF41AE2469A9DA0025CED1 /* LargestNumber.c */,
+				18AF41B02469A9DA0025CED1 /* LargestNumber.h */,
+				18AF41B22469A9DA0025CED1 /* SelectionSort.c */,
+				18AF41AF2469A9DA0025CED1 /* SelectionSort.h */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
+		18AF41B32469A9DA0025CED1 /* sum */ = {
+			isa = PBXGroup;
+			children = (
+				18AF41B42469A9DA0025CED1 /* Sum.c */,
+				18AF41B52469A9DA0025CED1 /* Sum.h */,
+			);
+			path = sum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,10 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1891E9B72465C5E900C771BA /* LargestNumber.c in Sources */,
-				18AF41A8246856AF0025CED1 /* bubbleSort.c in Sources */,
+				18AF41B72469A9DA0025CED1 /* LargestNumber.c in Sources */,
 				1891E9AC2465C5BB00C771BA /* main.c in Sources */,
-				1891E9B62465C5E900C771BA /* Sum.c in Sources */,
+				18AF41B82469A9DA0025CED1 /* SelectionSort.c in Sources */,
+				18AF41B92469A9DA0025CED1 /* Sum.c in Sources */,
+				18AF41B62469A9DA0025CED1 /* bubbleSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
