@@ -12,7 +12,7 @@
 /// @param arr int 数组
 /// @param count 数组元素个数
 void bubbleSort(int *arr, int count) {
-        
+    
     for (int i = count - 1; i < count; i--) {
         for (int j = 0; j < i; j++) {
             if(arr[j] > arr[i]) {

@@ -11,6 +11,8 @@
 #include "LargestNumber.h"
 #include "bubbleSort.h"
 #include "SelectionSort.h"
+#include "QuickSort.h"
+
 
 int main(int argc, const char * argv[]) {
     
@@ -42,7 +44,9 @@ int main(int argc, const char * argv[]) {
     // 冒泡排序
 //    bubbleSort(sortArray, 10);
     // 选择排序
-    selectionSort(sortArray, 10);
+//    selectionSort(sortArray, 10);
+    // 快速排序
+    quickSort(sortArray, 0, 9);
     
     for (int i = 0; i < 10; i++) {
         
