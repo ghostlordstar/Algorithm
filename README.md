@@ -8,10 +8,12 @@
 
 # 文件名称和算法对应关系
 
-|文件名称|算法|
-|--|--|
-|Sum.c|[计算1-100的整数的和](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sum/Sum.c)|
-|LargestNumber.c|[将给定int数组排序，组成最大数](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/LargestNumber.c)|
-|bubbleSort.c|[冒泡排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/bubbleSort.c)|
-|SelectionSort.c|[选择排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/Selection.c)|
-|QuickSort.c|[快速排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/QuickSort.c)|
+|文件名称|算法|leetcode-cn链接|
+|--|--|--|
+|Sum.c|[计算1-100的整数的和](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sum/Sum.c)||
+|LargestNumber.c|[将给定int数组排序，组成最大数](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/LargestNumber.c)|[179. 最大数](https://leetcode-cn.com/problems/largest-number/)|
+|bubbleSort.c|[冒泡排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/bubbleSort.c)||
+|SelectionSort.c|[选择排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/Selection.c)||
+|QuickSort.c|[快速排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/QuickSort.c)||
+|ValidPalindrome.c|[680. 验证回文字符串 Ⅱ](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/palindrome/ValidPalindrome.c)|[680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)|
+

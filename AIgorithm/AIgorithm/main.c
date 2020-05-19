@@ -12,7 +12,7 @@
 #include "bubbleSort.h"
 #include "SelectionSort.h"
 #include "QuickSort.h"
-
+#include "ValidPalindrome.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -36,21 +36,31 @@ int main(int argc, const char * argv[]) {
 //
 //    printf("%s\n", str);
 //    
-#pragma mark - 排序 算法 --
+//#pragma mark - 排序 算法 --
+//
+//    printf("------ 排序 算法 ------\n");
+//
+//    int sortArray[10] = {7,2,6,1,5,8,4,3,9,0};
+//    // 冒泡排序
+////    bubbleSort(sortArray, 10);
+//    // 选择排序
+////    selectionSort(sortArray, 10);
+//    // 快速排序
+//    quickSort(sortArray, 0, 9);
+//
+//    for (int i = 0; i < 10; i++) {
+//
+//        printf("%d\n",sortArray[i]);
+//    }
     
-    printf("------ 排序 算法 ------\n");
+#pragma mark - 验证回文字符串 算法 --
     
-    int sortArray[10] = {7,2,6,1,5,8,4,3,9,0};
-    // 冒泡排序
-//    bubbleSort(sortArray, 10);
-    // 选择排序
-//    selectionSort(sortArray, 10);
-    // 快速排序
-    quickSort(sortArray, 0, 9);
+    char * s = "abca";
     
-    for (int i = 0; i < 10; i++) {
-        
-        printf("%d\n",sortArray[i]);
+    if (validPalindrome(s)) {
+        printf("\'%s\'可以在删除一个字符的条件下形成回文字符串\n",s);
+    }else {
+        printf("\'%s\'不可以在删除一个字符的条件下形成回文字符串\n",s);
     }
     
     return 0;

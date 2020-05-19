@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		181F0966246ECDD6006B1697 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 181F0965246ECDD6006B1697 /* QuickSort.c */; };
+		188817142474315A000EEC40 /* ValidPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 188817132474315A000EEC40 /* ValidPalindrome.c */; };
 		1891E9AC2465C5BB00C771BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9AB2465C5BB00C771BA /* main.c */; };
 		18AF41B62469A9DA0025CED1 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41AD2469A9DA0025CED1 /* bubbleSort.c */; };
 		18AF41B72469A9DA0025CED1 /* LargestNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41AE2469A9DA0025CED1 /* LargestNumber.c */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		181F0964246ECDD6006B1697 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		181F0965246ECDD6006B1697 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		188817122474315A000EEC40 /* ValidPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidPalindrome.h; sourceTree = "<group>"; };
+		188817132474315A000EEC40 /* ValidPalindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ValidPalindrome.c; sourceTree = "<group>"; };
 		1891E9A82465C5BB00C771BA /* AIgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AIgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1891E9AB2465C5BB00C771BA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		18AF41AD2469A9DA0025CED1 /* bubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1888171124743143000EEC40 /* palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				188817122474315A000EEC40 /* ValidPalindrome.h */,
+				188817132474315A000EEC40 /* ValidPalindrome.c */,
+			);
+			path = palindrome;
+			sourceTree = "<group>";
+		};
 		1891E99F2465C5BB00C771BA = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +84,7 @@
 		1891E9AA2465C5BB00C771BA /* AIgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				1888171124743143000EEC40 /* palindrome */,
 				18AF41AC2469A9DA0025CED1 /* sort */,
 				18AF41B32469A9DA0025CED1 /* sum */,
 				1891E9AB2465C5BB00C771BA /* main.c */,
@@ -161,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AF41B72469A9DA0025CED1 /* LargestNumber.c in Sources */,
+				188817142474315A000EEC40 /* ValidPalindrome.c in Sources */,
 				181F0966246ECDD6006B1697 /* QuickSort.c in Sources */,
 				1891E9AC2465C5BB00C771BA /* main.c in Sources */,
 				18AF41B82469A9DA0025CED1 /* SelectionSort.c in Sources */,
