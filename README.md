@@ -17,3 +17,5 @@
 |QuickSort.c|[快速排序](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/sort/QuickSort.c)||
 |ValidPalindrome.c|[680. 验证回文字符串 Ⅱ](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/palindrome/ValidPalindrome.c)|[680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)|
 |MergeTrees.c|[617. 合并二叉树](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/tree/MergeTrees.c)|[617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees)|
+|HammingDistance.c|[461. 汉明距离](https://github.com/ghostlordstar/Algorithm/blob/master/AIgorithm/AIgorithm/binary/HammingDistance.c)|[461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance)|
+

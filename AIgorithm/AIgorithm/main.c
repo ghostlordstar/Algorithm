@@ -15,6 +15,7 @@
 #include "QuickSort.h"
 #include "ValidPalindrome.h"
 #include "MergeTrees.h"
+#include "HammingDistance.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -66,36 +67,43 @@ int main(int argc, const char * argv[]) {
     //    }
     //
     
-#pragma mark - 简单二叉树合并 --
-    PTreeNode t1_1 = createNode(1);
-    PTreeNode t1_3 = createNode(3);
-    PTreeNode t1_2 = createNode(2);
-    PTreeNode t1_5 = createNode(5);
+    //#pragma mark - 简单二叉树合并 --
+    //    PTreeNode t1_1 = createNode(1);
+    //    PTreeNode t1_3 = createNode(3);
+    //    PTreeNode t1_2 = createNode(2);
+    //    PTreeNode t1_5 = createNode(5);
+    //
+    //    t1_1->left = t1_3;
+    //    t1_3->left = t1_5;
+    //    t1_1->right = t1_2;
+    //
+    //    printf("-------第一个树-------\n");
+    //
+    //    showTree(t1_1);
+    //
+    //    PTreeNode t2_1 = createNode(2);
+    //    PTreeNode t2_2 = createNode(1);
+    //    PTreeNode t2_3 = createNode(3);
+    //    PTreeNode t2_5 = createNode(4);
+    //    PTreeNode t2_7 = createNode(7);
+    //
+    //    t2_2->right = t2_5;
+    //    t2_1->left = t2_2;
+    //    t2_3->right = t2_7;
+    //    t2_1->right = t2_3;
+    //    printf("-------第二a个树-------\n");
+    //    showTree(t2_1);
+    //
+    //    printf("-------合并后--------\n");
+    //
+    //    showTree(mergeTrees(t1_1, t2_1));
     
-    t1_1->left = t1_3;
-    t1_3->left = t1_5;
-    t1_1->right = t1_2;
+#pragma mark - 461. 汉明距离 算法 --
     
-    printf("-------第一个树-------\n");
+    int x = 1;
+    int y = 4;
     
-    showTree(t1_1);
-    
-    PTreeNode t2_1 = createNode(2);
-    PTreeNode t2_2 = createNode(1);
-    PTreeNode t2_3 = createNode(3);
-    PTreeNode t2_5 = createNode(4);
-    PTreeNode t2_7 = createNode(7);
-    
-    t2_2->right = t2_5;
-    t2_1->left = t2_2;
-    t2_3->right = t2_7;
-    t2_1->right = t2_3;
-    printf("-------第二a个树-------\n");
-    showTree(t2_1);
-    
-    printf("-------合并后--------\n");
-    
-    showTree(mergeTrees(t1_1, t2_1));
+    printf("%d和%d的汉明距离是:%d\n",x,y,hammingDistance(x, y));
     
     return 0;
 }
