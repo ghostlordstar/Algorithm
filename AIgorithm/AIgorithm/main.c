@@ -16,6 +16,8 @@
 #include "ValidPalindrome.h"
 #include "MergeTrees.h"
 #include "HammingDistance.h"
+#include "MoreTimeChar.h"
+#include "FirstUniqChar.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -28,7 +30,8 @@ int main(int argc, const char * argv[]) {
     //    printf("%d - %d 的所有整数和为:%d\n", min, max, sum(min, max));
     //
     //    printf("%d - %d 的所有整数和为:%d\n", min, max, sumGauss(min, max));
-    //
+    
+    
     //#pragma mark - largestNumber 算法 --
     //
     //    printf("------ largestNumber 算法 ------\n");
@@ -39,6 +42,8 @@ int main(int argc, const char * argv[]) {
     //
     //    printf("%s\n", str);
     //
+    
+    
     //#pragma mark - 排序 算法 --
     //
     //    printf("------ 排序 算法 ------\n");
@@ -55,6 +60,7 @@ int main(int argc, const char * argv[]) {
     //
     //        printf("%d\n",sortArray[i]);
     //    }
+    
     
     //#pragma mark - 验证回文字符串 算法 --
     //
@@ -98,12 +104,29 @@ int main(int argc, const char * argv[]) {
     //
     //    showTree(mergeTrees(t1_1, t2_1));
     
-#pragma mark - 461. 汉明距离 算法 --
+    //#pragma mark - 461. 汉明距离 算法 --
+    //
+    //    int x = 1;
+    //    int y = 4;
+    //
+    //    printf("%d和%d的汉明距离是:%d\n",x,y,hammingDistance(x, y));
     
-    int x = 1;
-    int y = 4;
     
-    printf("%d和%d的汉明距离是:%d\n",x,y,hammingDistance(x, y));
+    
+    //#pragma mark - 出现次数最多的字符 --
+    //
+    //    char *t = "abcabbbaaaaadgjlkajglqrjeglkasdgaaaa";
+    //
+    //    printf("%c\n",moreTimeChar(t));
+    //
+    
+    
+#pragma mark - 387. 字符串中的第一个唯一字符 --
+    
+    char *t = "abcdefghijklmnopqrstuvwxyzloveleetcode";
+    
+    printf("%d\n",firstUniqChar(t));
+    
     
     return 0;
 }

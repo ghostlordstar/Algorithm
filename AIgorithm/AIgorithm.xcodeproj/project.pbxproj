@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		181F0966246ECDD6006B1697 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 181F0965246ECDD6006B1697 /* QuickSort.c */; };
+		1887868C24812C7700489BF9 /* MoreTimeChar.c in Sources */ = {isa = PBXBuildFile; fileRef = 1887868B24812C7700489BF9 /* MoreTimeChar.c */; };
 		188817142474315A000EEC40 /* ValidPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 188817132474315A000EEC40 /* ValidPalindrome.c */; };
 		1891E9AC2465C5BB00C771BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1891E9AB2465C5BB00C771BA /* main.c */; };
 		18A9796B247A541300853649 /* MergeTrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 18A9796A247A541300853649 /* MergeTrees.c */; };
 		18A9796F247B624D00853649 /* HammingDistance.c in Sources */ = {isa = PBXBuildFile; fileRef = 18A9796E247B624D00853649 /* HammingDistance.c */; };
+		18AD55B9248154D60094A97C /* FirstUniqChar.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AD55B8248154D60094A97C /* FirstUniqChar.c */; };
 		18AF41B62469A9DA0025CED1 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41AD2469A9DA0025CED1 /* bubbleSort.c */; };
 		18AF41B72469A9DA0025CED1 /* LargestNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41AE2469A9DA0025CED1 /* LargestNumber.c */; };
 		18AF41B82469A9DA0025CED1 /* SelectionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41B22469A9DA0025CED1 /* SelectionSort.c */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		181F0964246ECDD6006B1697 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		181F0965246ECDD6006B1697 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		1887868A24812C7700489BF9 /* MoreTimeChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreTimeChar.h; sourceTree = "<group>"; };
+		1887868B24812C7700489BF9 /* MoreTimeChar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MoreTimeChar.c; sourceTree = "<group>"; };
 		188817122474315A000EEC40 /* ValidPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidPalindrome.h; sourceTree = "<group>"; };
 		188817132474315A000EEC40 /* ValidPalindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ValidPalindrome.c; sourceTree = "<group>"; };
 		1891E9A82465C5BB00C771BA /* AIgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AIgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +45,8 @@
 		18A9796A247A541300853649 /* MergeTrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeTrees.c; sourceTree = "<group>"; };
 		18A9796D247B624D00853649 /* HammingDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HammingDistance.h; sourceTree = "<group>"; };
 		18A9796E247B624D00853649 /* HammingDistance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HammingDistance.c; sourceTree = "<group>"; };
+		18AD55B7248154D60094A97C /* FirstUniqChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstUniqChar.h; sourceTree = "<group>"; };
+		18AD55B8248154D60094A97C /* FirstUniqChar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FirstUniqChar.c; sourceTree = "<group>"; };
 		18AF41AD2469A9DA0025CED1 /* bubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
 		18AF41AE2469A9DA0025CED1 /* LargestNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LargestNumber.c; sourceTree = "<group>"; };
 		18AF41AF2469A9DA0025CED1 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
@@ -62,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1887868924812B8700489BF9 /* char */ = {
+			isa = PBXGroup;
+			children = (
+				1887868A24812C7700489BF9 /* MoreTimeChar.h */,
+				1887868B24812C7700489BF9 /* MoreTimeChar.c */,
+				18AD55B7248154D60094A97C /* FirstUniqChar.h */,
+				18AD55B8248154D60094A97C /* FirstUniqChar.c */,
+			);
+			path = char;
+			sourceTree = "<group>";
+		};
 		1888171124743143000EEC40 /* palindrome */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +107,7 @@
 		1891E9AA2465C5BB00C771BA /* AIgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				1887868924812B8700489BF9 /* char */,
 				18A9796C247B623800853649 /* binary */,
 				18A97968247A53EF00853649 /* tree */,
 				1888171124743143000EEC40 /* palindrome */,
@@ -200,7 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A9796B247A541300853649 /* MergeTrees.c in Sources */,
+				1887868C24812C7700489BF9 /* MoreTimeChar.c in Sources */,
 				18AF41B72469A9DA0025CED1 /* LargestNumber.c in Sources */,
+				18AD55B9248154D60094A97C /* FirstUniqChar.c in Sources */,
 				188817142474315A000EEC40 /* ValidPalindrome.c in Sources */,
 				18A9796F247B624D00853649 /* HammingDistance.c in Sources */,
 				181F0966246ECDD6006B1697 /* QuickSort.c in Sources */,
